@@ -1,0 +1,4 @@
+Mazda,6,2020,black,200,2
+Toyota,rav4,2010,white,150,1.4
+Tesla,model s,2020,black,250,0
+Mazda,3,2020,black,200,2
