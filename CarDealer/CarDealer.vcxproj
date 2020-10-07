@@ -140,16 +140,21 @@
   <ItemGroup>
     <ClCompile Include="Car.cpp" />
     <ClCompile Include="CarDealer.cpp" />
+    <ClCompile Include="CarRepository.cpp" />
     <ClCompile Include="Command.cpp" />
     <ClCompile Include="Dealer.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Repository.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bus.h" />
     <ClInclude Include="Car.h" />
     <ClInclude Include="CarDealer.h" />
+    <ClInclude Include="CarRepository.h" />
     <ClInclude Include="Command.h" />
     <ClInclude Include="Dealer.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="Repository.h" />
     <ClInclude Include="Vehicle.h" />
   </ItemGroup>
   <ItemGroup>

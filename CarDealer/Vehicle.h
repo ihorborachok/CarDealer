@@ -2,9 +2,10 @@
 #define VEHICLE_H
 
 #include<string>
+#include "Entity.h"
 using namespace std;
 
-class Vehicle
+class Vehicle : public Entity
 {
 public:
 	virtual void Write()

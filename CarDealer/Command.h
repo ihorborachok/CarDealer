@@ -3,13 +3,11 @@
 
 #include"Car.h"
 #include"Bus.h"
+#include"CarRepository.h"
 
 class Command
 {
-	Vehicle** vehicles;
-	int lastCarIndex;
-
-	void AddVehicle(Vehicle&);
+	CarRepository carRepository = CarRepository(true);
 public:
 	Command();
 	~Command();
